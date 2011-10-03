@@ -20,6 +20,8 @@ of Colorado available in various languages.
 $RPM_SOURCE_DIR/%{filename} --prefix $RPM_BUILD_DIR --mode unattended
 %patch -p0
 
+%build
+
 %install
 rm -rf %{buildroot}
 
