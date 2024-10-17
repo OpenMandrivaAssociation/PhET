@@ -7,7 +7,7 @@ Release:	%mkrel 1
 Summary:	PhET: Free online physics, chemistry, biology, earth science and math simulations
 License:	CC, GPL
 Group:		Education
-URL:		http://phet.colorado.edu
+URL:		https://phet.colorado.edu
 Source:		%filename
 Patch:		PhET_Simulations.desktop-ru.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-build
